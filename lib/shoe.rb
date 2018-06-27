@@ -12,7 +12,6 @@ class Shoe
       puts "new"
     else
       puts "old"
+    end
   end
-    
-    
 end
