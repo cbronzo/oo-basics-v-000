@@ -8,7 +8,7 @@ class Shoe
   end
   def cobble
     puts "Your shoe is as good as new!"
-    if @condition == "new"
+    if @condition != "new"
       "new"
     else
       "old"
