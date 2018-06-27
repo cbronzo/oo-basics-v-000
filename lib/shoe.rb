@@ -9,9 +9,9 @@ class Shoe
   def cobble
     puts "Your shoe is as good as new!"
     if @condition == "new"
-      puts "new"
+      "new"
     else
-      puts "old"
+      "old"
     end
   end
 end
